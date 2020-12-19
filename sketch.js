@@ -34,7 +34,7 @@ function draw() {
   healthCheck();
   updateTime();
   decoyStats();
-  spawnHealthBox();
+  spawnSprites();
 }
 
 class healthbox {
@@ -121,7 +121,7 @@ function editEnemySize() {
   }
 }
 
-function spawnHealthBox() {
+function spawnSprites() {
   if ((Math.round(60 * time) / 60) % 10 === 0) {
     spawnEnemies();
     if (Math.random() > 0.3) {
