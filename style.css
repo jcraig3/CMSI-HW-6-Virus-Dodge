@@ -1,0 +1,16 @@
+body {
+  background-color: skyblue;
+}
+
+h1 {
+  color: red;
+  font-size: 50px;
+  line-height: 10px;
+  text-align: center;
+}
+
+p {
+  font-family: cambria;
+  color: white;
+  margin: 10px;
+}
